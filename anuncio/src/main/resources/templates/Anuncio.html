@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8"/>
+<title>Anuncio</title>
+</head>
+<body>
+	<p th:text= "'Nombre: ' + ${anuncio.autor}"/>
+	<p th:text= "'Asunto: ' + ${anuncio.asunto}"/>
+	<p th:text= "'Comentario: ' + ${anuncio.comentario}"/>
+</body>
+</html>

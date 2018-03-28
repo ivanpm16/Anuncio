@@ -1,10 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<meta charset="UTF-8">
+<title>Enviar Anuncio</title>
 </head>
 <body>
+<form action="anuncio" method="post">
+	<h1>Enviar Anuncio</h1>
+	<p>
+	<label>Usuario:</label>
+	<input type="text" name="autor"/>
+	<br>
+	</p>
+	
+	<p>
+	<label>Asunto:</label>
+	<input type="text" name="asunto"/>
+	<br>
+	</p>
+	
+	<p>
+	<label>Comentario:</label>
+	<br>
+	<textarea  name="comentario" rows="5" cols="50"></textarea>
+	<br>
+	</p>
+	<input type="submit" value="Enviar"/>
+</form>
 
 </body>
 </html>
